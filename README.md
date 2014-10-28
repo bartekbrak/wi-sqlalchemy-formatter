@@ -73,6 +73,28 @@ Sample INI logging section provided:
 	format = %(levelname)s %(message)s
 
 
+Extras
+------
+
+This library also provides some useful debug-time methods:
+
+    wi_sqlalchemy_formatter.color_sql
+    """
+    Beautify and colorify SQL snippet.
+    @param code: string
+    @return: string
+    """
+ 
+    wi_sqlalchemy_formatter.compile_query
+    """
+    Compile sqlalchemy query object to regular SQL with escaped values
+    @param query: sqlalchemy query object
+    @return: string
+    """
+
+They work and work beautifully but they kind of shouldn't belon here so they 
+might be here temporarily.
+
 Changelog
 ---------
 
