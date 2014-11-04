@@ -5,9 +5,9 @@ here = path.abspath(path.dirname(__file__))
 
 setup(
     name='wi-sqlalchemy-formatter',
-    version='0.1b',
+    version='0.2b',
 
-    description='Add project-specific hosts to ~/.ssh/config',
+    description='Pygments-powered logging formatter for SQLAlchemy',
     url='http://gitlab.qa.devwebinterpret.com/tools/wi-sqlalchemy-formatter',
     author='Bartek Rychlicki <bartek.r@webinterpret.com>',
     author_email='funky_chicken@webinterpret.com',
@@ -28,8 +28,8 @@ setup(
         # is console logging error, then change back to normal handler.
         'sqlparse',
         'pygments',
-        'sqlalchemy',
-        'mysql-python',
+        # 'sqlalchemy',  # disabled until further solution found
+        # 'mysql-python',
 
     ],
 )

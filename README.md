@@ -92,11 +92,16 @@ This library also provides some useful debug-time methods:
     @return: string
     """
 
-They work and work beautifully but they kind of shouldn't belon here so they 
+They work and work beautifully but they kind of shouldn't belong here so they 
 might be here temporarily.
 
 Changelog
 ---------
+
+0.2b (2014-11-04)
+-----------------
+
+* Turn off sqlalchemy dependency that reinstalled lib unnecessarily. 
 
 0.1b (2014-10-29)
 -----------------
