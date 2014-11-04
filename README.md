@@ -98,6 +98,11 @@ might be here temporarily.
 Changelog
 ---------
 
+0.2 (2014-11-04)
+----------------
+
+* Remove beta tag as it only complicates installing (pip requires --pre)
+
 0.2b (2014-11-04)
 -----------------
 

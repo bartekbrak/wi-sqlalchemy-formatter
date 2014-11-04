@@ -5,7 +5,7 @@ here = path.abspath(path.dirname(__file__))
 
 setup(
     name='wi-sqlalchemy-formatter',
-    version='0.2b',
+    version='0.2',
 
     description='Pygments-powered logging formatter for SQLAlchemy',
     url='http://gitlab.qa.devwebinterpret.com/tools/wi-sqlalchemy-formatter',
